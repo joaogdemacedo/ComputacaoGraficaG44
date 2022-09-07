@@ -1,0 +1,15 @@
+<scene>
+	<lights>
+ 		<light type="Spotlight" cutoff="45"/>
+	</lights>
+	<group>
+
+		<translate X="-5"/>
+	<model file="sphere.3d" diffR="1" diffG="0" diffB="0"/>
+		<group/>
+
+	<group>
+		<translate X="5"/>
+		<model file="sphere.3d" diffR="0" diffG="1" diffB="0"/>
+	</group>
+</scene>

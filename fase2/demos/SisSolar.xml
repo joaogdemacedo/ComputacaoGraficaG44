@@ -1,0 +1,118 @@
+<scene>
+    <group>
+        <translate X="-10"/>
+        <model file="sphere.3d"/>
+        <group>
+            <translate X="2" />
+            <scale X="0.15" Y="0.15" Z="0.15" />
+            <model file="sphere.3d"/>
+        </group>
+        <group>
+            <translate X="4" />
+            <scale X="0.3" Y="0.3" Z="0.3" />
+            <model file="sphere.3d"/>
+        </group>
+        <group>
+            <translate X="6" />
+            <scale X="0.4" Y="0.4" Z="0.4" />
+            <model file="sphere.3d"/>
+            
+            <group>
+                <translate Z="4" />
+                <scale X="0.4" Y="0.4" Z="0.4" />
+                <model file="sphere.3d"/>
+            </group>
+        </group>
+        <group>
+            <translate X="8" />
+            <scale X="0.30" Y="0.30" Z="0.30" />
+            <model file="sphere.3d"/>
+
+            <group>
+                <translate Z="4" />
+                <scale X="0.2" Y="0.2" Z="0.2" />
+                <model file="sphere.3d"/>
+            </group>
+            <group>
+                <translate X="2" Z="-2" />
+                <scale X="0.2" Y="0.2" Z="0.2" />
+                <model file="sphere.3d"/>
+            </group>
+        </group>
+        <group>
+            <translate X="11" />
+            <scale X="0.8" Y="0.8" Z="0.8" />
+            <model file="sphere.3d"/>
+
+            <group>
+                <translate X="1" Z="-1.7" />
+                <scale X="0.3" Y="0.3" Z="0.3" />
+                <model file="sphere.3d"/>
+            </group>
+            <group>
+                <translate X="1" Z="1.5" />
+                <scale X="0.25" Y="0.25" Z="0.25" />
+                <model file="sphere.3d"/>
+            </group>
+            <group>
+                <translate X="-1" Z="-1.5" />
+                <scale X="0.4" Y="0.4" Z="0.4" />
+                <model file="sphere.3d"/>
+            </group>
+            <group>
+                <translate X="-1.5" Z="1.5" />
+                <scale X="0.3" Y="0.3" Z="0.3" />
+                <model file="sphere.3d"/>
+            </group>
+        </group>
+        <group>
+            <translate X="15" />
+            <scale X="0.65" Y="0.65" Z="0.65" />
+            <model file="sphere.3d"/>
+
+            <group>
+                <scale X="1" Y="0.15" Z="1"/>
+                <rotate Z="1" angle="-45"/>
+                <model file="torus.3d" />
+            </group>
+
+            <group>
+                <translate X="-1" Z="-2" />
+                <scale X="0.25" Y="0.25" Z="0.25" />
+                <model file="sphere.3d"/>
+            </group>
+            <group>
+                <translate X="-1.5" Z="2" />
+                <scale X="0.4" Y="0.4" Z="0.4" />
+                <model file="sphere.3d"/>
+            </group>
+            <group>
+                <translate X="1.5" Z="1.5" />
+                <scale X="0.3" Y="0.3" Z="0.3" />
+                <model file="sphere.3d"/>
+            </group>
+        </group>
+        <group>
+            <translate X="18" />
+            <scale X="0.5" Y="0.5" Z="0.5" />
+            <model file="sphere.3d"/>
+
+            <group>
+                <translate X="1" Z="-1.5" />
+                <scale X="0.25" Y="0.25" Z="0.25" />
+                <model file="sphere.3d"/>
+            </group>
+        </group>
+        <group>
+            <translate X="20" />
+            <scale X="0.45" Y="0.45" Z="0.45" />
+            <model file="sphere.3d"/>
+
+            <group>
+                <translate X="1.5" Z="1.5" />
+                <scale X="0.2" Y="0.2" Z="0.2" />
+                <model file="sphere.3d"/>
+            </group>
+        </group>
+    </group>
+</scene>

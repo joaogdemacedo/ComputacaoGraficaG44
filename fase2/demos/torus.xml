@@ -1,0 +1,4 @@
+<scene>
+    <scale X="1" Y="0.15" Z="1"/>
+	<model file="torus.3d" />
+</scene>
